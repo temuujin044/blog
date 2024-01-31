@@ -1,16 +1,11 @@
-import {
-  LatestPost,
-  Slider,
-  TrendingPost,
-  Header,
-  Fooder,
-} from "@/components/index";
+import { LatestPost, Slider, TrendingPost } from "@/components/index";
 
 export default function Home(props) {
   const { sliders, trends, latests } = props;
 
   return (
     <div className="flex flex-col  items-center ">
+      {/* <Link href={""}></Link> */}
       <Slider sliders={sliders} />
       <TrendingPost trends={trends} />
       <LatestPost latests={latests} />

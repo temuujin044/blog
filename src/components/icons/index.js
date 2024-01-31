@@ -5,3 +5,5 @@ export * from "./Twitter";
 export * from "./Instagram";
 export * from "./LinkedIn";
 export * from "./Blog";
+export * from "./AngleLeft";
+export * from "./AngleRight";

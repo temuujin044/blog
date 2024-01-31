@@ -10,7 +10,7 @@ export const TrendingPost = (props) => {
             <div>
               <img
                 src={el.cover_image}
-                className=" w-[289px] h-[320px] rounded-xl"
+                className=" w-[289px] h-[320px] object-cover rounded-xl"
               />
               <div className="absolute bottom-6 left-6">
                 <h2 className=" mb-[16px] bg-indigo-500 flex justify-center rounded-md text-[#fff] py-[4px] w-[86px] text-sm leading-tight">
