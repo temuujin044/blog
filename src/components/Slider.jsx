@@ -22,9 +22,11 @@ export const Slider = (props) => {
             </div>
           </div>
           <div className="rounded-xl w-[598px] p-[40px] bg-[#fff] absolute left-2 bottom-[67px] pb-[30px]">
-            <h2 className="mb-[16px] bg-indigo-500 flex justify-center rounded-md  text-[#fff]  px-[10px] text-sm leading-tight">
-              {el.tag_list[3]}
-            </h2>
+            <div className=" rounded-md justify-center items-center gap-1 inline-flex">
+              <div className="text-[#fff] px-2.5 py-1 rounded-md bg-indigo-500 text-sm font-medium font-['Work Sans'] leading-tight">
+                {el.tag_list[3]}
+              </div>
+            </div>
             <p className="pb-[24px] text-gray-900 text-2xl font-semibold">
               {el.title}
             </p>

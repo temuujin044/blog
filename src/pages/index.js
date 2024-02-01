@@ -5,7 +5,6 @@ export default function Home(props) {
 
   return (
     <div className="flex flex-col  items-center ">
-      {/* <Link href={""}></Link> */}
       <Slider sliders={sliders} />
       <TrendingPost trends={trends} />
       <LatestPost latests={latests} />

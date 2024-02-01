@@ -13,9 +13,11 @@ export const TrendingPost = (props) => {
                 className=" w-[289px] h-[320px] object-cover rounded-xl"
               />
               <div className="absolute bottom-6 left-6">
-                <h2 className=" mb-[16px] bg-indigo-500 flex justify-center rounded-md text-[#fff] py-[4px] w-[86px] text-sm leading-tight">
-                  Technology
-                </h2>
+                <div className=" rounded-md justify-center items-center gap-1 inline-flex">
+                  <div className="text-[#fff] px-2.5 py-1 rounded-md bg-indigo-500 text-sm font-medium font-['Work Sans'] leading-tight">
+                    {el.tag_list[1]}
+                  </div>
+                </div>
                 <p className="font-semibold w-[230px] text-[#fff] text-lg">
                   {el.title}
                 </p>

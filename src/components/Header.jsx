@@ -8,10 +8,10 @@ export const Header = () => {
         <MetaBlog />
       </div>
       <div className="flex w-[667px] gap-[40px] text-base text-[#3B3C4A] font-normal justify-center">
-        <Link href={"index"}>
+        <Link href={"/"}>
           <h2>Home</h2>
         </Link>
-        <Link href={"Blog"}>
+        <Link href={"index"}>
           <h2>Blog</h2>
         </Link>
         <Link href={"Contact"}>
