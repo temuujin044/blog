@@ -11,14 +11,18 @@ export const Header = () => {
         <Link href={"/"}>
           <h2>Home</h2>
         </Link>
-        <Link href={"index"}>
+        <Link href={"/blog/All"}>
           <h2>Blog</h2>
         </Link>
-        <Link href={"Contact"}>
+        <Link href={"/Contact"}>
           <h2>Contact </h2>
         </Link>
       </div>
-      <div className="pl-[21px]">
+      <div className="flex justify-center items-center bg-[#F4F4F5] rounded-[5px] border-[1px] ] py-[3px] px-[10px]">
+        <input
+          className=" bg-[#F4F4F5]   border-[#DCDDDF] py-[5px "
+          placeholder="search"
+        />
         <Search />
       </div>
     </div>
